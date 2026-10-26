@@ -4,12 +4,14 @@
 
 
 export default function StudentCard(props) {
-    studentName = props.name
-    course = props.course
-    marks = props.marks
+    let studentName = props.name
+    let course = props.course
+    let marks = props.marks
     return (
-        <>
-        
-        </>
+        <div className="flex flex-col gap-2 border w-fit p-5 m-5">
+            <p>Student Name : {studentName}</p>
+            <p>Course : {course}</p>
+            <p>Marks : {marks}</p>
+        </div>
     )
 }
