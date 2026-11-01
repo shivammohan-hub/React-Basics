@@ -1,6 +1,7 @@
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
+import ProductCard from "./components/ProductCard"
 import StudentCard from "./components/StudentCard"
 
 function App() {
@@ -12,10 +13,16 @@ function App() {
       <StudentCard name="Akash" course="CSE" marks="90"/>
       <StudentCard name="Om" course="BCA" marks="91"/> */}
 
+
       {/* Q.2 Create separate components named `Navbar`, `Home`, and `Footer` in different files. Export and import them into `App.jsx` to display a complete webpage. */}
-      <Navbar />
+      {/* <Navbar />
       <Home />
-      <Footer />
+      <Footer /> */}
+
+
+      {/* Q.3 Create a product listing page with at least 6 products. Store product details in an array of objects and use `.map()` to display each product through a reusable `ProductCard` component. Each card should display the product name, price, and category. */}
+      <ProductCard />
+
 
     </>
   )
